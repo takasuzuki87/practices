@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="3abed5f3-33ef-4798-b4c4-69b75fe590ae"></div>
+        </div>
+        
+        <script type="application/json" id="730624ad-226e-483e-9c8e-a48a50e77416">
+          {"84f8ab45-809e-4cf8-8fae-e3628e039a60":{"roots":{"references":[{"attributes":{"formatter":{"id":"c3ba3d56-41b0-4411-9648-fc7bcc46187d","type":"BasicTickFormatter"},"plot":{"id":"424b5b68-64d2-4d61-8144-91df8b61b74f","subtype":"Figure","type":"Plot"},"ticker":{"id":"84a19ec3-675c-42dd-b789-14bb9813b942","type":"BasicTicker"}},"id":"9b1b16c1-ef0c-420e-9387-c3a2113a0c85","type":"LinearAxis"},{"attributes":{},"id":"ccb90455-2a81-442e-bc48-4d6c17b283d8","type":"LinearScale"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"52dda05c-9213-4fc1-ab59-a4bd1660ec3c","type":"BoxAnnotation"},{"attributes":{"fill_color":{"value":"red"},"line_color":{"value":"red"},"size":{"units":"screen","value":10},"x":{"field":"x"},"y":{"field":"y"}},"id":"4eb65218-dae3-4064-be7a-330edfa0b78f","type":"Circle"},{"attributes":{},"id":"c82ed591-1da0-4b3a-bd14-5371e24f2568","type":"WheelZoomTool"},{"attributes":{"formatter":{"id":"c0e4329b-adf2-4bf9-8709-47c660754286","type":"BasicTickFormatter"},"plot":{"id":"424b5b68-64d2-4d61-8144-91df8b61b74f","subtype":"Figure","type":"Plot"},"ticker":{"id":"6af2f3e9-cc46-418b-8a5b-8482a3c7f7c0","type":"BasicTicker"}},"id":"3691562e-6ba2-469d-9071-b9b82465292f","type":"LinearAxis"},{"attributes":{},"id":"657b9265-9ecc-43a9-a782-834967bfb380","type":"LinearScale"},{"attributes":{"source":{"id":"a7023c65-b7fa-4445-a644-3cbd285800e0","type":"ColumnDataSource"}},"id":"0478bcca-ffd9-425b-9066-0a7b257b1c62","type":"CDSView"},{"attributes":{"below":[{"id":"3691562e-6ba2-469d-9071-b9b82465292f","type":"LinearAxis"}],"left":[{"id":"9b1b16c1-ef0c-420e-9387-c3a2113a0c85","type":"LinearAxis"}],"renderers":[{"id":"3691562e-6ba2-469d-9071-b9b82465292f","type":"LinearAxis"},{"id":"5e42934b-b2fb-4c88-9566-005b349b33d8","type":"Grid"},{"id":"9b1b16c1-ef0c-420e-9387-c3a2113a0c85","type":"LinearAxis"},{"id":"c984cfbc-8d7f-468c-8f3b-e802286f5e3a","type":"Grid"},{"id":"52dda05c-9213-4fc1-ab59-a4bd1660ec3c","type":"BoxAnnotation"},{"id":"d95d0a97-f579-4c94-a393-63e40f3f42d6","type":"GlyphRenderer"}],"title":{"id":"bbddf48a-e5a4-4bcd-9520-9c50e464fb9e","type":"Title"},"toolbar":{"id":"e10ab1cf-3f42-4f83-93e4-1f81dbe64fd2","type":"Toolbar"},"x_range":{"id":"f15b09d7-18a5-4ece-87ce-e4a85f80dacf","type":"DataRange1d"},"x_scale":{"id":"ccb90455-2a81-442e-bc48-4d6c17b283d8","type":"LinearScale"},"y_range":{"id":"cbe4a821-eeb7-4ded-bf92-381a1825b611","type":"DataRange1d"},"y_scale":{"id":"657b9265-9ecc-43a9-a782-834967bfb380","type":"LinearScale"}},"id":"424b5b68-64d2-4d61-8144-91df8b61b74f","subtype":"Figure","type":"Plot"},{"attributes":{"data_source":{"id":"a7023c65-b7fa-4445-a644-3cbd285800e0","type":"ColumnDataSource"},"glyph":{"id":"4eb65218-dae3-4064-be7a-330edfa0b78f","type":"Circle"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"0e7819a0-80bd-482f-bba6-9784e2a859d4","type":"Circle"},"selection_glyph":null,"view":{"id":"0478bcca-ffd9-425b-9066-0a7b257b1c62","type":"CDSView"}},"id":"d95d0a97-f579-4c94-a393-63e40f3f42d6","type":"GlyphRenderer"},{"attributes":{},"id":"84a19ec3-675c-42dd-b789-14bb9813b942","type":"BasicTicker"},{"attributes":{"overlay":{"id":"52dda05c-9213-4fc1-ab59-a4bd1660ec3c","type":"BoxAnnotation"}},"id":"d10761ac-8226-4258-849e-6a385fe66542","type":"BoxZoomTool"},{"attributes":{},"id":"f63552ce-6109-4be4-8c6c-3530418daf0f","type":"HelpTool"},{"attributes":{},"id":"c0e4329b-adf2-4bf9-8709-47c660754286","type":"BasicTickFormatter"},{"attributes":{},"id":"6af2f3e9-cc46-418b-8a5b-8482a3c7f7c0","type":"BasicTicker"},{"attributes":{},"id":"b231c66e-4f03-4710-849f-74d16a1759df","type":"SaveTool"},{"attributes":{"callback":null},"id":"cbe4a821-eeb7-4ded-bf92-381a1825b611","type":"DataRange1d"},{"attributes":{},"id":"8e8bff3b-d648-46ad-80ef-5e155318241a","type":"ResetTool"},{"attributes":{"dimension":1,"plot":{"id":"424b5b68-64d2-4d61-8144-91df8b61b74f","subtype":"Figure","type":"Plot"},"ticker":{"id":"84a19ec3-675c-42dd-b789-14bb9813b942","type":"BasicTicker"}},"id":"c984cfbc-8d7f-468c-8f3b-e802286f5e3a","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":10},"x":{"field":"x"},"y":{"field":"y"}},"id":"0e7819a0-80bd-482f-bba6-9784e2a859d4","type":"Circle"},{"attributes":{"plot":null,"text":"A map of address points from a Shapefile"},"id":"bbddf48a-e5a4-4bcd-9520-9c50e464fb9e","type":"Title"},{"attributes":{"callback":null},"id":"f15b09d7-18a5-4ece-87ce-e4a85f80dacf","type":"DataRange1d"},{"attributes":{"plot":{"id":"424b5b68-64d2-4d61-8144-91df8b61b74f","subtype":"Figure","type":"Plot"},"ticker":{"id":"6af2f3e9-cc46-418b-8a5b-8482a3c7f7c0","type":"BasicTicker"}},"id":"5e42934b-b2fb-4c88-9566-005b349b33d8","type":"Grid"},{"attributes":{"callback":null,"column_names":["address","id","x","y","index"],"data":{"address":["Kampinkuja 1, 00100 Helsinki, Finland","Kaivokatu 8, 00101 Helsinki, Finland","Hermanstads strandsv\u00e4g 1, 00580 Helsingfors, Finland","It\u00e4v\u00e4yl\u00e4, 00900 Helsinki, Finland","Tyynenmerenkatu 9, 00220 Helsinki, Finland","Kontulantie 18, 00940 Helsinki, Finland","It\u00e4v\u00e4yl\u00e4, 00800 Helsinki, Finland","Tapulikaupungintie 3, 00750 Helsinki, Finland","Sompionpolku 2, 00730 Helsinki, Finland","Atomitie 5, 00370 Helsinki, Finland","Rautatientori 1, 00100 Helsinki, Finland","Kuparitie 8, 00440 Helsinki, Finland","Trumstigen 8, 00420 Helsingfors, Finland","Kullatorpsv\u00e4gen 1, 00620 Helsingfors, Finland","Malminkaari 15, 00700 Helsinki, Finland","Kyl\u00e4tie 23, 00320 Helsinki, Finland","Malminkartanontie 17, 00410 Helsinki, Finland","\u00c5ggelby torg 2b, 00640 Helsingfors, Finland","Bang\u00e5rdsv\u00e4gen 6, 00101 Helsingfors, Finland","Pit\u00e4j\u00e4nm\u00e4entie 15, 00370 Helsinki, Finland","Eskolantie 2, 00720 Helsinki, Finland","Tattariharjuntie, 00700 Helsinki, Finland","Tallinnanaukio 1, 00930 Helsinki, Finland","Tyynylaavantie 7, 00980 Helsinki, Finland","Varvasm\u00e4enkuja, 00920 Helsinki, Finland","Mellungsbackastr\u00e5ket 6, 00970 Helsingfors, Finland","Vasastigen 2, 00101 Helsingfors, Finland","Hiiht\u00e4j\u00e4ntie 2, 00810 Helsinki, Finland","Ukko-Pekan porras, 00570 Helsinki, Finland","Siltasaarenkatu 16, 00530 Helsinki, Finland","Urho Kekkosen katu 1, 00100 Helsinki, Finland","Gr\u00e4sviksgatan 17, 00101 Helsingfors, Finland","Stillahavsgatan 3, 00220 Helsingfors, Finland","Vilhelmsgatan 4, 00101 Helsingfors, Finland","Torisilta, 00980 Helsinki, Finland"],"id":[1001,1002,1003,1004,1005,1006,1007,1008,1009,1010,1011,1012,1013,1014,1015,1016,1017,1018,1019,1020,1021,1022,1023,1024,1025,1026,1027,1028,1029,1030,1031,1032,1033,1034,1035],"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34],"x":{"__ndarray__":"kTevoB/uOEBP0lfrH/E4QOoYoek2+jhA9OeR9YoXOUCExCxq5us4QMTVXMnpFDlAoZ3TLNAKOUDpZRTLLQk5QPoO2ZtzBzlAdbIvNDLfOEAoJ9pVSPE4QAYEhCBR4jhA/RAbLJzgOEDdItUcxfI4QNKOG343AzlABVPNrKXkOEAGu2Hbotw4QCf9GM6Q9zhAbGv6ovPuOEDkh0ojZtw4QAol3eBV/jhACcbBpWMKOUBGUhxR6xM5QKrj53V6JDlA6Ek+G14TOUCZyuw9phs5QNFTiVf+9ThAGPQ50nQHOUDTznpCwAE5QM32MpsR8zhAEuozsQrvOECFkJhFzew4QEti/yvh6zhA/Ct12mTyOEB5R3zd2B45QA==","dtype":"float64","shape":[35]},"y":{"__ndarray__":"WAPvP40VTkDOF3svvhVOQBZPh1/7F05A7Y4xHHQbTkCJYk3AChROQKWRKuUQHk5AeXNdnQgaTkBiFjXzPyNOQD12vG62IU5AvvjsyngcTkBfPv536RVOQCf0n9qFHU5AyVpDqb0eTkDCWbZ7XhxOQPG/phgxIE5A5xJYSuAbTkABAjFk0B9OQDrJVpdTHU5A0xedh24ZTkC4LMt8rBxOQNXUDW8xH05Au+B440kfTkA4SrlW1hpOQA5LubGPGk5AUoGTbeAcTkCEXbmDfR5OQCreEsoMGE5Aue5Sj9kYTkBPsLWtHBhOQEctgyD2Fk5A+WXVjLEVTkCnZRDEHhVOQFpnfF9cFE5AI+pPLAEWTkCtVGF9TRpOQA==","dtype":"float64","shape":[35]}}},"id":"a7023c65-b7fa-4445-a644-3cbd285800e0","type":"ColumnDataSource"},{"attributes":{},"id":"ad756d25-2721-4e1d-a9a1-d98276625df7","type":"PanTool"},{"attributes":{},"id":"c3ba3d56-41b0-4411-9648-fc7bcc46187d","type":"BasicTickFormatter"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"ad756d25-2721-4e1d-a9a1-d98276625df7","type":"PanTool"},{"id":"c82ed591-1da0-4b3a-bd14-5371e24f2568","type":"WheelZoomTool"},{"id":"d10761ac-8226-4258-849e-6a385fe66542","type":"BoxZoomTool"},{"id":"b231c66e-4f03-4710-849f-74d16a1759df","type":"SaveTool"},{"id":"8e8bff3b-d648-46ad-80ef-5e155318241a","type":"ResetTool"},{"id":"f63552ce-6109-4be4-8c6c-3530418daf0f","type":"HelpTool"}]},"id":"e10ab1cf-3f42-4f83-93e4-1f81dbe64fd2","type":"Toolbar"}],"root_ids":["424b5b68-64d2-4d61-8144-91df8b61b74f"]},"title":"Bokeh Application","version":"0.12.13"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('730624ad-226e-483e-9c8e-a48a50e77416').textContent;
+                  var render_items = [{"docid":"84f8ab45-809e-4cf8-8fae-e3628e039a60","elementid":"3abed5f3-33ef-4798-b4c4-69b75fe590ae","modelid":"424b5b68-64d2-4d61-8144-91df8b61b74f"}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing")
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    </body>
+</html>
